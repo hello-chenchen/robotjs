@@ -1,7 +1,7 @@
 {
   'targets': [{
     'target_name': 'robotjs',
-    'include_dirs': [
+    'include_dirs': [ #COMMENT: 'include_dirs': The directories in which included header files live. These will be passed in on compilation command lines (using -I or /I options).
         "<!(node -e \"require('nan')\")"
     ],
     
