@@ -5,10 +5,11 @@
         "<!(node -e \"require('nan')\")"
     ],
     
+    #LINK: https://gcc.gnu.org/onlinedocs/gcc-3.4.4/gcc/Warning-Options.html
     'cflags': [
-      '-Wall',
+      '-Wall', 
       '-Wparentheses',
-      '-Winline',
+      '-Winline', # warn if function not inline.
       '-Wbad-function-cast',
       '-Wdisabled-optimization'
     ],
